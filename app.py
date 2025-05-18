@@ -48,6 +48,6 @@ class AgeEstimator(VideoTransformerBase):
         return img
 
 # Streamlit App
-st.title("📷 Real-Time Age Estimation App (Pre-trained Model)")
+st.title("Age Estimation App")
 
 webrtc_streamer(key="age_estimation", video_processor_factory=AgeEstimator)
